@@ -13,6 +13,29 @@
 
 できる限り、Embedに寄せる。
 
+
+###  Resource Response
+
+必要でない場合を除き、明示的に名前を指定しない。
+
+
+*BAD*
+```PHP
+$this['comments'] = get_comments();
+return $this;
+```
+
+*BETTER*
+```PHP
+$this = get_commnets();
+return $this;
+```
+
+リソース利用側のコードがシンプルになる。
+```
+$comments = $this['comments']();
+```
+
 ## Ray
 
 ### Setter Injection
