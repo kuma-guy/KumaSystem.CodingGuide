@@ -16,6 +16,8 @@
 
 ###  Resource Response
 
+#### In case for returning multiple resources
+
 必要でない場合を除き、明示的に名前を指定しない。
 
 
