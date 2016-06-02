@@ -27,7 +27,7 @@ return $this;
 
 *BETTER*
 ```PHP
-$this = get_commnets();
+$this = get_comments();
 return $this;
 ```
 
