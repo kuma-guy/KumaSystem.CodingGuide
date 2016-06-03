@@ -43,3 +43,7 @@ $comments = $this['comments']();
 ### Setter Injection
 
 ライブラリコードでは、Setter Injectionを使用しない。
+
+### Provider束縛
+
+可能な限り避ける。`toConstructor`束縛を検討。
