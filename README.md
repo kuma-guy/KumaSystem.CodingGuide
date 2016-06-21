@@ -47,3 +47,12 @@ $comments = $this['comments']();
 ### Provider束縛
 
 可能な限り避ける。`toConstructor`束縛を検討。
+
+
+
+### AvoidConditionalLogicInModules
+
+モジュール内でのConditional logicを避ける。
+
+https://github.com/google/guice/wiki/AvoidConditionalLogicInModules
+
