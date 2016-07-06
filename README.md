@@ -24,12 +24,14 @@
 *BAD*
 ```PHP
 $this['comments'] = get_comments();
+
 return $this;
 ```
 
 *BETTER*
 ```PHP
 $this->body = get_comments();
+
 return $this;
 ```
 
