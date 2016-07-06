@@ -29,13 +29,13 @@ return $this;
 
 *BETTER*
 ```PHP
-$this = get_comments();
+$this->body = get_comments();
 return $this;
 ```
 
 リソース利用側のコードがシンプルになる。
 ```
-$comments = $this['comments']();
+$comments = $this['comments']()->body;
 ```
 
 ## Ray
